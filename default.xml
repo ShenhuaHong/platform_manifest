@@ -22,6 +22,10 @@
            fetch="https://github.com/ShiznitsN"
            revision="refs/heads/n"/>
 
+   <remote  name="shenhua"
+           fetch="https://github.com/ShenhuaHong"
+           revision="refs/heads/n-mr2"/>
+   
 <!-- START SHIZNITS -->
   <project name="platform_manifest" path="manifest" remote="shiznits" />
   <project name="platform_build" path="build" remote="shiznits" >
@@ -29,7 +33,7 @@
   </project>
   <project name="platform_build_kati" path="build/kati" remote="shiznits" />
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="shiznits" />
-  <project name="platform_art" path="art" remote="shiznits" />
+  <project name="platform_art" path="art" remote="shenhua" />
   <project name="platform_bionic" path="bionic" remote="shiznits" />
   <project name="platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="shiznits" />
   <project name="platform_external_bash" path="external/bash" remote="shiznits"  revision="n-mr1" />
